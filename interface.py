@@ -10,6 +10,10 @@ for i in range(3):
     root.rowconfigure(i, weight=1)
     root.columnconfigure(i, weight=1)
 
+# Button 1 - Top-left
+btn1 = tk.Button(root, text="Button 1")
+btn1.grid(row=0, column=0, sticky="nsew", padx=5, pady=5)
+
 
 # Start the application
 root.mainloop()
