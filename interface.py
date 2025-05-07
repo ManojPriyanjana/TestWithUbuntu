@@ -14,6 +14,10 @@ for i in range(3):
 btn1 = tk.Button(root, text="Button 1")
 btn1.grid(row=0, column=0, sticky="nsew", padx=5, pady=5)
 
+# Button 2 - Top-center
+btn2 = tk.Button(root, text="Button 2")
+btn2.grid(row=0, column=1, sticky="nsew", padx=5, pady=5)
+
 
 # Start the application
 root.mainloop()
