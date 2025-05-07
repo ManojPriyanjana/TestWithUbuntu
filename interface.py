@@ -18,6 +18,10 @@ btn1.grid(row=0, column=0, sticky="nsew", padx=5, pady=5)
 btn2 = tk.Button(root, text="Button 2")
 btn2.grid(row=0, column=1, sticky="nsew", padx=5, pady=5)
 
+# Button 3 - Top-right
+btn3 = tk.Button(root, text="Button 3")
+btn3.grid(row=0, column=2, sticky="nsew", padx=5, pady=5)
+
 
 # Start the application
 root.mainloop()
